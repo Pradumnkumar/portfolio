@@ -7,17 +7,16 @@ export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50 dark:border-slate-700 dark:bg-dark-card/50 transition-colors">
       <div className="container-custom py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
           {/* About */}
-          <div>
-            <h3 className="text-lg font-bold mb-3">Pradumn Kumar</h3>
+          {/* <div>
             <p className="text-slate-600 dark:text-slate-400">
-              Senior software engineer with 5+ years building real-time data systems and embedded solutions. Expert in system design, full-stack development, and cloud-native architectures.
+              A foul tarnished in search of the Elden Ring.
             </p>
-          </div>
+          </div> */}
 
           {/* Quick Links */}
-          <div>
+          <div className="flex flex-col items-center justify-center text-center">
             <h3 className="text-lg font-bold mb-3">Quick Links</h3>
             <ul className="space-y-2">
               {[
@@ -35,13 +34,13 @@ export default function Footer() {
           </div>
 
           {/* Social Links */}
-          <div>
+          <div className="flex flex-col items-center justify-center text-center">
             <h3 className="text-lg font-bold mb-3">Connect</h3>
             <div className="flex gap-4">
-              <a href="https://github.com/pradumnkumar6" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" title="GitHub">
+              <a href="https://github.com/Pradumnkumar" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" title="GitHub">
                 <Github size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/pradumnkumar/" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" title="LinkedIn">
+              <a href="https://www.linkedin.com/in/pradumnkumar6/" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" title="LinkedIn">
                 <Linkedin size={20} />
               </a>
               <a href="mailto:pradumnkumar6@gmail.com" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" title="Email">
